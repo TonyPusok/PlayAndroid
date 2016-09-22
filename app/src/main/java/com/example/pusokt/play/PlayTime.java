@@ -22,6 +22,7 @@ public class PlayTime extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_play_time);
         TestGPS = new GPS();
+		TestGPS = new();
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         Log.d("Obiect", "This is my second message !!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
